@@ -1,18 +1,16 @@
-<%-- 
-    Document   : home
-    Created on : 20 mars 2016, 18:13:49
-    Author     : Mataking
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Chat - NekoAtsume</title>
+        <title>Menu</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="menu.css" />
     </head>
     <body>
-        <h1>Liste des chats de nekoatsume</h1>
         <nav>
             <ul id="menu">
                 <li><a href="inscription">Inscription</a>
@@ -25,7 +23,7 @@
                 <li><a href="login"/>Login</a></li>
                 <li><a href="accueil"/>Accueil</a></li>
             </ul>
-        </nav>
-        
+        </nav>         
     </body>
 </html>
+

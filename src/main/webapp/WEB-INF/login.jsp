@@ -8,35 +8,51 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-            <title>Login Page</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <meta charset="utf-8" />
+        <title>Login</title>
+        <link type="text/css" rel="stylesheet" href="form.css" />
     </head>
     <body>
-        <form method="post" action="loginServlet">
+        <nav>
+            <ul id="menu">
+                <li><a href="inscription">Inscription</a>
+                <ul>
+                    <li><a href="#">liste chats</a></li>
+                    <li><a href="#">chats commun</a></li>
+                    <li><a href="#">chats rares</a></li>
+		</ul>
+                </li>
+                <li><a href="login"/>Login</a></li>
+                <li><a href="accueil"/>Accueil</a></li>
+            </ul>
+        </nav> 
+        <form method="post" action="login">
             <div style="padding: 100px 0 0 250px;">
-                <div id="login-box">
-                    <h2>Home Page</h2>
-                        Please provide your credential to use this website
-                        <br>
-                            <br>
-                                <div id="login-box-name" style="margin-top:20px;">User Id:</div>
-                                <div id="login-box-field" style="margin-top:20px;">
-                                <input name="userId" class="form-login" title="Username" value="" size="30" maxlength="50" />
-                                </div>
-                                <div id="login-box-name">Password:</div>
-                                <div id="login-box-field">
-                                <input name="password" type="password" class="form-login" title="Password" value="" size="30" maxlength="48" />
-                                </div>
-                                <br />
-                                <span class="login-box-options">
-                                    New User?  <a href="inscription" style="margin-left:30px;">Register Here</a>
-                                </span>
-                            </br>
-                        </br>
-                    <input style="margin-left:100px;" type="submit" value="Login" />
+                <div id="login">
+                    <h2>Home Page</h2>                     
+                        <div id="login-name" style="margin-top:20px;">Pseudo:</div>
+                        <div id="login-field">
+                            <input name="pseudo" class="form-login" title="Pseudo" value="" size="30" maxlength="50" />
+                        </div>
+                        <div id="login-name">Mot de passe:</div>
+                        <div id="login-field">
+                            <input name="mdp" type="mdp" class="form-login" title="Mdp" value="" size="30" maxlength="48" />
+                        </div>         
+                        <br/>
+                        <input style="margin-left:10px;" type="submit" value="Login" />
                 </div>
+                <br/>
+                <span class="login-options">
+                    Nouvel Utilisateur ? <a href="inscription" style="margin-left:30px;">Enregistrez-vous!</a>
+                </span>  
+                <br/>
+                <span class="login-visiteur">
+                    Mode Visiteur  <a href="home" style="margin-left:30px;">Rejoindre le site</a>
+                </span>   
             </div>
-        </form>
+        </form
+        <footer>
+            
+        </footer>
     </body>
 </html>

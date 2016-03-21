@@ -49,7 +49,7 @@ public class LoginService {
         try {
             tx = session.getTransaction();
             tx.begin();
-            list = session.createQuery("from User").list();                        
+            list = session.createQuery("from Utilisateur").list();                        
             tx.commit();
         } catch (Exception e) {
             if (tx != null) {

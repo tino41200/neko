@@ -12,6 +12,20 @@
         <link type="text/css" rel="stylesheet" href="form.css" />
     </head>
     <body>
+        <nav>
+            <ul id="menu">
+                <li><a href="inscription">Inscription</a>
+                <ul>
+                    <li><a href="#">liste chats</a></li>
+                    <li><a href="#">chats commun</a></li>
+                    <li><a href="#">chats rares</a></li>
+		</ul>
+                </li>
+                <li><a href="login"/>Login</a></li>
+                <li><a href="accueil"/>Accueil</a></li>
+            </ul>
+        </nav>  
+        
         <form method="post" action="inscription">
             
             <fieldset>

@@ -13,11 +13,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-     <title>Result Page</title>
+        <meta charset="utf-8" />
+        <title>Login accept</title>
+        <link type="text/css" rel="stylesheet" href="form.css" />
 </head>
 <body>
+    <nav>
+        <ul id="menu">
+                <li><a href="inscription">Inscription</a>
+                <ul>
+                    <li><a href="#">liste chats</a></li>
+                    <li><a href="#">chats commun</a></li>
+                    <li><a href="#">chats rares</a></li>
+		</ul>
+                </li>
+                <li><a href="login"/>Login</a></li>
+                <li><a href="accueil"/>Accueil</a></li>
+            </ul>
+    </nav> 
 <center>
      <div id="container">
          <h1>Result Page</h1>

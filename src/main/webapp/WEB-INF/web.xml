@@ -42,8 +42,30 @@
         <servlet-name>logoutServlet</servlet-name>
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <display-name>listeChatServlet</display-name>
+        <servlet-name>listeChatServlet</servlet-name>
+        <servlet-class>Servlet.listeChatServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listeChatServlet</servlet-name>
+        <url-pattern>/chats</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>listeChatServlet</servlet-name>
+        <url-pattern>/chatsRare</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>listeChatServlet</servlet-name>
+        <url-pattern>/chatsCommuns</url-pattern>
+    </servlet-mapping>
+
 
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>accueil.php</welcome-file>
     </welcome-file-list>
 </web-app>
