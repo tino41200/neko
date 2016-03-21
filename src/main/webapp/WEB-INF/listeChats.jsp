@@ -29,7 +29,6 @@
                 <li><a href="accueil"/>Accueil</a></li>
             </ul>
         </nav>  
-        <h1>Hello World!</h1>
         <div align="center"> 
             <table>
                 <thead>

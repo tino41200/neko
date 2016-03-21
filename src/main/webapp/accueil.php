@@ -15,7 +15,7 @@ and open the template in the editor.
             <ul id="menu">
                 <li><a href="inscription">Inscription</a>
                 <ul>
-                    <li><a href="#">liste chats</a></li>
+                    <li><a href="listeChats">liste chats</a></li>
                     <li><a href="#">chats commun</a></li>
                     <li><a href="#">chats rares</a></li>
 		</ul>
